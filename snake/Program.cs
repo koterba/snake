@@ -46,7 +46,7 @@ static class Program
 
             var keyPressed = Raylib.GetKeyPressed();
             var segments = snake.GetSegments();
-            Console.WriteLine(keyPressed);
+            
             if (keyPressed == 80) { // p key
                 paused = !paused;
             } else if (keyPressed == 87 || keyPressed == 265) { // w key or up arrow
