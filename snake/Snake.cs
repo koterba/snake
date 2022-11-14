@@ -37,11 +37,17 @@ public class Snake {
         
         addSegmentFlag = false;
 
-        // check for wall collision
-        if ((segments[0].X >= 580 || segments[0].X <= 20 ) || (segments[0].Y >= 580 || segments[0].Y <= 20 )){
-            return false;
+        // check for wall collision and teleport if hit
+        if (segments[0].X >= 580) {
+            segments[0].X = 20;
+        } else if (segments[0].X <= 0) {
+            segments[0].X = 560;
+        } else if (segments[0].Y >= 580) {
+            segments[0].Y = 20;
+        } else if (segments[0].Y <= 0 ) {
+            segments[0].Y = 560;
         }
-
+        
         // check for tail collision
         var index = -1;
         foreach (var segment in segments) {

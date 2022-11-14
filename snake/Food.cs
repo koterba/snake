@@ -3,8 +3,8 @@ public class Food {
 
     public Food() {
         var rand = new Random();
-        var x = rand.Next(1, 30) * 20;
-        var y = rand.Next(1, 30) * 20;
+        var x = rand.Next(1, 29) * 20;
+        var y = rand.Next(1, 29) * 20;
         position = new Position(x, y);
     }
 
