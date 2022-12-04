@@ -8,7 +8,7 @@
   <h3 align="center">Classic snake gameplay</h3>
 </p>
 
----
+--- 
 
 <br>
 
