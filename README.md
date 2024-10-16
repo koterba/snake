@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="40%" src="https://cdn.discordapp.com/attachments/947092663914623016/1041831289789100032/snake.png" />
+  <img width="40%" src="https://files.alan0.com/snakeLogo.png" />
 </p>
 
 ---
@@ -13,9 +13,9 @@
 <br>
 
 <p align="center">
-  <img width="40%" src="https://cdn.discordapp.com/attachments/947092663914623016/1041830716511625236/image.png">
-  <img width="40%" src="https://cdn.discordapp.com/attachments/947092663914623016/1041830736023535706/image.png">
-  <img width="40%" src="https://cdn.discordapp.com/attachments/947092663914623016/1041830736329723904/image.png">
+  <img width="40%" src="https://files.alan0.com/snakeStart.png">
+  <img width="40%" src="https://files.alan0.com/snakeGameplay.png">
+  <img width="40%" src="https://files.alan0.com/snakePaused.png">
 </p>
  
 
